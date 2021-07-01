@@ -1,0 +1,22 @@
+##
+## This file contains all source files used by burden_get_regions_v2.1pl script
+##
+## Format:
+#### 1. Start comment lines with #
+#### 2. keys and values are = sign separated.
+##
+##
+## The order of the entries does not matter.
+## The list can be further extended, also the Perl script has to be adjusted to.
+## acceppt and use the newly added items.
+##
+
+
+## This file contains coordinates of the gene related genomic features and annotation:
+Linked_features="<path/to/Linked_features.bed.gz>"
+
+## To get CADD/Eigen/GERP scores, we have to lift over the coordinates. Path to liftover:
+liftoverPath="<path/to/liftover/binary>"
+
+## Path to Eigen scores (in this release coding and non-coding variants are located in separate files):
+EigenPath="<path/to/eigen.phred_v2.dat>"
